@@ -67,3 +67,13 @@ train_data <- cbind(subject_train, train_data)
 full_data <- rbind(train_data, test_data)
 full_dt <- data.table(full_data)
 full_dt <- full_dt[,lapply(.SD,mean),by=list(subjectId,activityId)]
+
+#write table
+write.table(full_dt, "tidy.txt")
+
+
+
+
+
+
+
