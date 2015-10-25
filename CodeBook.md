@@ -1,6 +1,8 @@
 # This is a code book that describes the variables, the data, and transformations.
 
 Steps.
+
+
 -1. Download data to 'data' directory if doesn't exist
 -2. Load datasets to variables with names mirroring file names.
 -3. Add apprpiate column names provided by features.txt.
