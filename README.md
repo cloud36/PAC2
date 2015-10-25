@@ -1,3 +1,2 @@
 # PAC2
-Project C2
-Proj
+Project 2 for Cousera Data Science
