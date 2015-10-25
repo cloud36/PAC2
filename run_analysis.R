@@ -73,7 +73,7 @@ levels(full_dt$activityId)[levels(full_dt$activityId)=="5"] <- "standing"
 levels(full_dt$activityId)[levels(full_dt$activityId)=="6"] <- "laying"
 
 #write table
-write.table(full_dt, "./data/tidy.txt")
+write.table(full_dt, "./data/tidy.txt", row.names = F)
 
 
 
